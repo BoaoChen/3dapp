@@ -1,0 +1,57 @@
+{
+    "pageTextData": [
+		{
+			"title": "Coca Cola Great Britain",
+			"subTitle": "Founded in 1886 Dr John S Pemberton",		
+			"description": "The Coca Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands."
+		},
+		{
+			"title": "Coca Cola",
+			"subTitle": "New York Harbour, 1886",		
+			"description": "The world's most popular soft drink, symbolizing joy and unity."
+		},
+		{
+			"title": "Sprite",
+			"subTitle": "West Germany, 1959",
+			"description": "Clear, refreshing, lemon-flavored soda, quenching your thirst."
+		},
+		{
+			"title": "Dr Pepper",
+			"subTitle": "Texas, 1885",		
+			"description": "The one-of-a-kind soda with 23 flavors in every sip."
+		},
+		{
+			"x3dModelTitle": "Coca Cola X3D Model",
+			"x3dCreationMethod": "This X3D model of a Coke can was created in blender and converted to X3D using a transcoder for display online.",
+			"title": "Coca-Cola: A Global Icon",
+			"subTitle": "From Local Tonic to Worldwide Beverage Leader",
+			"description": "The history of Coca-Cola dates back to 1886, when John Stith Pemberton, a pharmacist in Atlanta, invented a new beverage. He mixed a syrup in his backyard, which was then brought to Jacob's Pharmacy, where it was combined with carbonated water and sold as a \"brain tonic\" for just five cents a glass. The new drink quickly gained popularity among customers. Pemberton's bookkeeper, Frank M. Robinson, suggested the name \"Coca-Cola\" and designed the distinctive logo in the unique script that is still used today. Although Pemberton invented the formula, he did not live to see Coca-Cola's success; he passed away in 1888. The formula and brand were acquired by a businessman named Asa Griggs Candler, who used aggressive marketing and advertising strategies to make Coca-Cola one of America's most popular soft drinks.\n\nOver the following decades, Coca-Cola continued to grow. In the 1920s, Coca-Cola began expanding internationally, establishing production and sales networks around the world. During World War II, Coca-Cola promised to make Coca-Cola available to every American soldier for five cents, which further enhanced the brand's global influence. In the post-war period, Coca-Cola continued to expand its product line and markets, introducing various flavors such as Fanta and Sprite. Additionally, through acquisitions and innovations, the company continuously enriched its product variety and brand image. Today, Coca-Cola is one of the most recognized brands worldwide, with its products sold in over 200 countries and regions. Despite facing numerous challenges, including health trends and environmental pressures, Coca-Cola has maintained its leadership in the beverage market through continuous innovation and strategic adjustments."
+		},			
+		{
+			"x3dModelTitle": "Sprite X3D Model",
+			"x3dCreationMethod": "This X3D model of a Sprite bottle was created in blender and converted to X3D using a transcoder for display online",
+			"title": "Sprite: A Refreshing Legacy",
+			"subTitle": "From Lemon-Lime Experiment to Global Favorite",
+			"description": "The history of Sprite began in 1961 when The Coca-Cola Company introduced this new lemon-lime flavored soft drink to compete with 7 Up. Initially developed in West Germany under the name \"Fanta Klare Zitrone,\" Sprite was quickly rebranded and launched in the United States as \"Sprite.\" Its name and crisp, refreshing taste were aimed at capturing a younger demographic, emphasizing a lively and vibrant brand image.\n\nSprite's marketing strategies have played a significant role in its success. Early advertisements positioned Sprite as a cool, refreshing beverage, ideal for quenching thirst. The brand’s slogans, such as \"Obey Your Thirst,\" resonated well with consumers, reinforcing Sprite’s identity as a drink for those who embrace their individuality. Over the years, Sprite has also been closely associated with hip-hop culture and urban lifestyles, further cementing its appeal to a younger audience.\n\nAs the brand expanded, so did its product line. Sprite introduced variations such as Sprite Zero (a sugar-free version) and flavored versions like Sprite Cranberry. This diversification helped Sprite maintain its popularity in an increasingly competitive market. Today, Sprite is sold in more than 190 countries and remains one of the top-selling soft drinks globally. Despite changing consumer preferences and growing health consciousness, Sprite continues to adapt through innovative marketing and product development, ensuring its place as a beloved beverage worldwide."
+		},		
+		{
+			"x3dModelTitle": "Dr Pepper X3D Model",
+			"x3dCreationMethod": "This X3D model of a Dr Pepper cup was created in blender and converted to X3D using a transcoder for display online.",
+			"title": "Dr Pepper: A Unique Blend of History",
+			"subTitle": "From Pharmacy Origins to Iconic Beverage",
+			"description": "The history of Dr Pepper dates back to 1885, when it was created by Charles Alderton, a pharmacist in Waco, Texas. Working at Morrison’s Old Corner Drug Store, Alderton experimented with various flavor combinations, ultimately developing a distinctive blend of 23 flavors. This new soda was initially served to customers at the drugstore’s soda fountain and quickly became popular for its unique taste. The owner of the drugstore, Wade Morrison, named the beverage Dr Pepper, though the origin of the name remains a subject of speculation.\n\nDr Pepper gained regional popularity before making its national debut at the 1904 World’s Fair in St. Louis, where it was introduced to a broader audience. Its distinct taste, which stood out from other sodas, helped it carve out a niche in the competitive beverage market. Over the years, Dr Pepper has been marketed with various slogans, such as \"Drink a Bite to Eat at 10, 2, and 4,\" promoting the drink as a refreshing pick-me-up.\n\nThroughout the 20th century, Dr Pepper continued to expand its market presence, merging with other beverage companies and diversifying its product line. Variants such as Diet Dr Pepper and Dr Pepper Cherry were introduced to cater to evolving consumer tastes. Today, Dr Pepper is sold in numerous countries and remains a beloved soft drink, known for its unique flavor and rich history. Despite challenges from industry competitors and shifting consumer preferences, Dr Pepper continues to thrive through strategic marketing and product innovation, maintaining its status as a distinctive and iconic beverage."
+		},		
+		{
+			"galleryTitle": "3D Images",
+			"galleryDescription": "These 3D images of the Coke can, Sprite bottle and Dr Pepper cup are rendered in Blender 4.0 with EEVEE."
+		},
+		{
+			"CameraTitle": "Camera Views",
+			"CameraSubtitle": "These buttons select a range of X3D model viewpoints"
+		},
+		{
+			"AboutTitle":"OUR COMPANY",
+			"AboutDescription":"On May 8, 1886, Dr. John Pemberton brought his perfected syrup to Jacobs' Pharmacy in downtown Atlanta where the first glass of Coca‑Cola was poured. From that one iconic drink, we’ve evolved into a total beverage company. More than 2.2 billion servings of our drinks are enjoyed in more than 200 countries and territories each day.\n\nWe are constantly transforming our portfolio, from reducing added sugar in our drinks to bringing innovative new products to market. We seek to positively impact people’s lives, communities and the planet through water replenishment, packaging recycling, sustainable sourcing practices and carbon emissions reductions across our value chain. Together with our bottling partners, we employ more than 700,000 people, helping bring economic opportunity to local communities worldwide."
+		}
+	]
+}

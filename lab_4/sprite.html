@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Coca Cola 3D App Template</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://kit.fontawesome.com/6ac3910c4e.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        
+        
+        <link rel ='stylesheet' type ='text/css' href = 'css/x3dom.css'></link>
+        <script type='text/javascript' src ='js/x3dom.js '></script>
+        
+        <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body>
+        
+        <!-- Logo and navigation bar -->
+        <nav class="navbar sticky-top navbar-expand-sm navbar_coca_cola">
+          <div class="container-fluid">
+            <!-- Brand -->
+            
+            <div class="logo">
+              <a class="navbar-brand" href="#">
+              <h1>1</h1>
+              <h1>oca</h1>
+              <h2>Cola</h2>
+              <h3>Journey</h3>
+              <p>Refreshing the world, one story at a time</p>
+              </a>
+            </div>
+              
+
+            <!--Collapsible Navbar Menu Icon-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>          
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Links -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="popover" data-trigger="hover"
+                data-placement="bottom" title="About Web 3D Applications" 
+                data-content="3D Apps is a final year and postgraduate module ...">
+                About</a>
+              </li>
+              
+          
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                  Drinks
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="coke.html">Coca Cola</a>
+                  <a class="dropdown-item" href="sprite.html">Sprite</a>
+                  <a class="dropdown-item" href="pepper.html">Dr Pepper</a>
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+
+            </ul>
+          </div> 
+          </div> 
+        </nav>
+          
+        <!-- This is the main contents of the page-->
+        <div class="container-fluid"> 
+          <div class="main_contents">
+            <!--Row to hold two cards to hold 1) the X3D model and 2) the gallery--> 
+            <!-- This is the coke page-->
+            <div class="container-fluid main_contents">
+
+              <!-- Row to hold two cards to hold 1) the X3D model and 2) the gallery-->
+              <div class="row">
+                  <!--Column to hold the X3D Model--> 
+                <div class="col-sm-10">
+                  <div class="card text-left"> 
+                    <div class="card-header">
+                      <ul class="nav nav-tabs card-header-tabs"> 
+                        <li class="nav-item">
+                          <a class="nav-link active" href="coke.html">Coke</a> 
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="sprite.html">Sprite</a> 
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="pepper.html">Pepper</a> 
+                        </li>
+                      </ul> 
+                    </div>
+                      
+                    <!-- Place the X3D code here--> 
+                    <!--Temporary image instead of 
+                    <div id="main_3d_image"></div>-->
+                    <!--Bootstrap 4 card body to hold information about the X3D model--> 
+                    <div class="card-body">
+                      <h4 class="card-title">Sprite</h4>
+                      <div class="model3D">
+                        <x3d>
+                          <scene>
+                            <inline url="assets/x3d/sprite/Sprite.x3d"></inline>
+                          </scene>
+                        </x3d>
+                      </div>
+
+                      <p class="card-text">This X3D model of the Sprite bottle has been created in 3ds Max, 
+                        exported to VRML97 and converted, using the instantreality transcoders, to X3D 
+                        for display online.
+                      </p>
+                      <h5 class="card-subtitle">Camera Views</h5>
+                      <div class="camera-btns">
+                          <p class="card-text">These buttons select a range of X3D model viewpoints</p>
+                          <div class="btn-group ">
+                              <a href="#" class="btn btn-primary btn-responsive camera-font">Front</a>
+                              <a href="#" class="btn btn-secondary btn-responsive camera-font">Back</a>
+                              <a href="#" class="btn btn-success btn-responsive camera-font">Left</a>
+                              <a href="#" class="btn btn-danger btn-responsive camera-font">Right</a>
+                              <a href="#" class="btn btn-warning btn-responsive camera-font">Top</a>
+                              <a href="#" class="btn btn-outline-dark disabled btn-responsive camera-font">Off</a>
+                         </div>
+                      </div>
+    
+                    </div>
+                  </div> 
+                </div> 
+                <!--Column to hold 3D Image gallery -->
+                  <div class="col-sm-2">
+                      <div class="card text-left">
+                        <div class="card-header">
+                          3D Image Gallery
+                        </div>
+                        <a href="coke.html">
+                          <img class="card-img-top img-fluid img-thumbnail" src="assets/images/coca_cola.jpg"
+                          alt="Coca Cola">
+                        </a>
+                        <a href="sprite.html">
+                          <img class="card-img-top img-fluid img-thumbnail" src="assets/images/sprite.jpg"
+                          alt="Coca Cola">
+                        </a>
+                        <a href="pepper.html">
+                          <img class="card-img-top img-fluid img-thumbnail" src="assets/images/dr_pepper.jpg"
+                          alt="Coca Cola">
+                        </a>
+                        <p class="card-text">3D images rendered in 3ds Max 2017 with Mental Ray</p>
+                      </div>
+                  </div>
+                </div>
+  
+
+        <!--Row to hold 1 card to hold the coca cola descriptive text, etc. -->
+        <div class="row">
+          <!--Coca Cola Column-->
+          <div class="col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Sprite</h3>
+                <p class="card-text">First introduced in 1961, crisp, refreshing, clean-tasting Sprite is now 
+                  the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different 
+                  countries. Sprite Zero, part of our no sugar Zero range, offers the delicious lemon lime taste
+                   of Sprite without the sugar or calories.</p>
+                <a href="#" class="btn btn-primary">Find out more ...</a>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div> 
+  
+    </div>
+  </div>
+  <br>
+ 
+ <!-- Your 3D App footer -->
+ <nav class="navbar navbar-expand-sm footer">
+  <div class="container-fluid">   
+      <div class="navbar-text float-left copyright">
+          <p><span class="align-baseline"></span>&copy Mobile Web 3D Applications </span></p>
+      </div>
+      <div class="navbar-text social">
+            <a href="#"><i class="fab fa-github-square fa-2x fa-pull-right"></i></a>
+            <a href="#"><i class="fab fa-google-plus-square fa-2x fa-pull-right"></i></a>
+            <a href="#"><i class="fab fa-twitter-square fa-2x fa-pull-right"></i></a>
+            <a href="#"><i class="fab fa-facebook-square fa-2x fa-pull-right"></i></a>
+      </div>
+  </div>
+</nav> 
+
+
+  <script src="js/bootstrap.js"></script>
+
+
+</body>
+
