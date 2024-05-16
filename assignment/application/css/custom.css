@@ -409,6 +409,7 @@ There is plenty more styling to do than indicated here, in mobile it still defau
         margin-bottom: 10px;
         background-color:rgba(103, 165, 210, 0.8);
         border-color: rgba(103, 165, 210, 0.8);
+        font-size: 12px;
     }
 
     #x3dBackground {
@@ -508,6 +509,9 @@ There is plenty more styling to do than indicated here, in mobile it still defau
         min-height: 90px;
     }
 
+    #modelButton {
+        font-size: 18px;
+    }
 
     /* Footer information CSS rules */
     .footer {
